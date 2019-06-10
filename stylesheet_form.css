@@ -1,0 +1,105 @@
+
+/* LE PANNEAU */
+main{
+	box-shadow: inset 0px 0px 9px -4px rgba(0,0,0,0.75);
+	background-image:url('img/Fond_Form.png');
+	background-size: contain;
+	image-rendering: crisp-edges;
+  image-rendering: pixelated;
+	position: absolute; 
+                top: 0; 
+                left: 0; 
+                bottom: 0; 
+                right: 0; 
+	display:flex;
+	flex-wrap:wrap;
+}
+
+/* A L'INTERIEUR DU PANNEAU */
+main div{
+position: absolute;	
+}
+form{
+	width:100%
+}
+	
+	/* le Input*/
+	#ipInput{
+		position: absolute;
+			left: 25%;
+			top: 42%;
+		width:72%;
+		height:25%;
+		background-color:rgba(0, 0, 0, 0);
+		border:none;
+		
+	}
+
+	/*le bouton*/
+	#ok{
+		position: absolute;	
+			left:35%;
+			top: 68.75%;
+		width:27.5%;
+		height:31.5%;
+		border:none;
+		background-color:rgba(0, 0, 0, 0);
+		box-shadow: 0px 0px 9px -4px rgba(0,0,0,0.75);
+		
+	}
+	
+	#ok:hover{
+		box-shadow: inset 0px 0px 50px 0px rgba(255,217,0,1);
+	}
+	
+	
+	/* l'affichage du texte */
+	#ipInput{
+		color:white;
+		font-family: Minecraft;
+		font-size:250%;
+	}
+
+	
+	/* generalités sur l'affichage du texte */
+	div p{
+		margin: 0;
+		position: absolute;
+			top: 50%;
+			left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%) ;
+		background-color: rgba(255,255,255,0.5);
+	}
+
+/* LES MESSAGES D'ERREUR */
+header{
+	background-image:url('img/chaines.png');
+	background-size: contain;
+	image-rendering: crisp-edges;
+   image-rendering: pixelated;
+	position: absolute; 
+                top: 0; 
+                left: 0; 
+                bottom: 0; 
+                right: 0; 
+	display:flex;
+	flex-wrap:wrap;
+}
+#inexistant , #HorsLigne {
+	position:absolute;
+	height:50%;
+	width:100%;
+	top: 35%; 
+	background-image:url('img/inexistant.png');
+	background-size: contain;
+	image-rendering: crisp-edges;
+   image-rendering: pixelated;
+   
+   animation-name: fallDown;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+}
+#HorsLigne{
+	background-image:url('img/hl.png');
+}

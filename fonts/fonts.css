@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Minecraft_b';
+    src: url('Minecraft-Bold.woff2') format('woff2'),
+        url('Minecraft-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minecraft_bi';
+    src: url('Minecraft-BoldItalic.woff2') format('woff2'),
+        url('Minecraft-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Minecraft_i';
+    src: url('Minecraft-Italic.woff2') format('woff2'),
+        url('Minecraft-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('Minecraft-Regular.woff2') format('woff2'),
+        url('Minecraft-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

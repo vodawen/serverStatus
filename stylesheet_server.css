@@ -1,0 +1,138 @@
+
+
+/* LE PANNEAU */
+main{
+	box-shadow: inset 0px 0px 9px -4px rgba(0,0,0,0.75);
+	background-image:url('img/Fond_Sign.png');
+	background-size: contain;
+	image-rendering: crisp-edges;
+  image-rendering: pixelated;
+	position: absolute; 
+                top: 0; 
+                left: 0; 
+                bottom: 0; 
+                right: 0; 
+	display:flex;
+	flex-wrap:wrap;
+}
+
+/* A L'INTERIEUR DU PANNEAU */
+	
+	/* en haut */
+	#modt{
+		width:100%;
+		top: 0%;
+		left: 0%;
+	}
+	/* au milieu */
+	#Version{
+		top: 25%;
+		left:20%;
+		width:80%;
+	}
+	#status{
+		left:20%;
+		top: 50%;
+		width:80%;
+	}
+
+	/* au milieu a gauche */
+	#favicon{
+		height:50%;
+		width:20%;
+		left: 0%;
+		top: 25%;
+		box-shadow: inset 0px 0px 9px -4px rgba(0,0,0,0.75);
+	}
+
+	/* en bas */
+	#players{
+		left:0%;
+		top: 75%;
+		width:100%;
+	}
+
+	
+	/* l'affichage du texte */
+	#modt p{
+		background-color: black;
+		color:white;
+		font-family: Minecraft_b;
+	}
+	#Version p{
+		font-family: Minecraft;
+		color:black !important;
+	}
+	#status p{
+		font-family: Minecraft_i;
+		color:black !important;
+	}
+	#players p{
+		font-family: Minecraft;
+		color:black !important;
+	}
+	#favicon img{
+		position: absolute;
+			top: 12.5%;
+			left: 12.5%;
+		width:75%;
+		height:75%;
+	}
+	
+	/* generalités sur l'affichage du texte */
+	div p{
+		margin: 0;
+		position: absolute;
+			top: 50%;
+			left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%) ;
+		background-color: rgba(255,255,255,0.5);
+		text-align: center;
+		display:inline-block;
+	}
+
+/* LE PANNEAU "IP"  */
+#ip_banner{
+	position:absolute;
+	height:50%;
+	width:100%;
+	top: 35%; 
+	background-image:url('img/ip_banner.png');
+	background-size: contain;
+	image-rendering: crisp-edges;
+   image-rendering: pixelated;
+   
+   animation-name: fallDown;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+}
+#ip{
+	position:absolute;
+		left:20%;
+		width:72%;
+	
+	height:100%;
+	
+	
+	
+}
+#ip p{
+	background-color: rgba(0,0,0,0);	
+	font-family: Minecraft_i;
+	font-size:170%;
+}
+header{
+	background-image:url('img/chaines.png');
+	background-size: contain;
+	image-rendering: crisp-edges;
+   image-rendering: pixelated;
+	position: absolute; 
+                top: 0; 
+                left: 0; 
+                bottom: 0; 
+                right: 0; 
+	display:flex;
+	flex-wrap:wrap;
+}
+
